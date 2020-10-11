@@ -1,0 +1,86 @@
+body{
+    font-family: 'Nunito';
+  }
+.wrapper{ 
+   max-width:400px; 
+   border:3px solid #0066D3;
+   box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
+   border-radius: 2px;
+   margin: 30px auto; 
+    
+}
+.chat-name{
+  height:50px;
+  background:#0066D3;
+  color:#fff;
+  text-align:center;
+  line-height:1.9em;
+  font-size:24px;
+  margin-bottom: 3px;
+}
+#chat-window{
+  height: 330px;
+  overflow: auto;
+  background: #f9f9f9;
+
+
+}
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+ul li{
+display:inline-block;
+clear: both;
+padding: 10px;
+border-radius: 30px;
+margin: 1px;
+}
+.him{
+background: rgb(158, 152, 152);
+color: #fff;
+float: left;
+margin-left:8px;
+
+}
+.me{
+background: #0084ff;
+color: #fff;
+float: right;
+margin-right:8px;
+
+}
+#feedback p{
+color: #aaa;
+padding: 14px 0px;
+margin: 0 20px;
+
+display:inline-block;
+clear: both;
+
+}
+input{
+padding: 10px 20px;
+margin-bottom: 2px;
+box-sizing: border-box;
+background: #eee;
+border: 0;
+display: block;
+width: 100%;
+background: #fff;
+border-bottom: 2px solid #eee;
+font-family: Nunito;
+font-size: 16px;
+border-radius: 30px;
+}
+
+button{
+background:#0084ff;;
+color: #fff;
+font-size: 16px;
+border: 0;
+padding: 12px 0;
+width: 100%;
+border-radius: 30px;
+}
